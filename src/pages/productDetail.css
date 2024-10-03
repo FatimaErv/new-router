@@ -1,0 +1,23 @@
+.detail {
+    margin: 20px 50px;
+}
+
+.detail img {
+    width: 500px;
+    height: 500px;
+}
+.detail-content {
+    left: 550px;
+    bottom: 400px;
+    position: relative;
+
+}
+
+.detail-images img {
+    width: 90px;
+    height: 80px;
+    position: relative;
+    left: 90px;
+    bottom: 140px;
+   margin-left: 10px;
+}

@@ -1,0 +1,58 @@
+.product {
+    width: 150px;
+    height: 250px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.discount {
+    position: relative;
+    bottom: 150px;
+    background-color: red;
+    width: 35px;
+    border-radius: 5px;
+    color: white;
+
+}
+.product-content {
+    display: flex;
+    justify-content: space-around;
+ position: relative;
+ bottom: 10px;
+}
+.prices {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 40px;
+}
+.prices p{
+    color: red;
+    font-size: 20px;
+
+}
+.prices span {
+    position: relative;
+    top: 20px;
+}
+.my {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    width: 900px;
+    margin: 0 auto;
+}
+.red {
+    background-color: rgb(168, 77, 77);
+}
+.green {
+    background-color: rgb(72, 139, 72);
+}

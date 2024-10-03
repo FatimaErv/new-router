@@ -1,0 +1,50 @@
+.header {
+    width: 1600px;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+
+}
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+.header ul li {
+    list-style: none;
+    color: black;
+
+}
+.header button {
+    width: 111px;
+height: 45px;
+border-radius: 21px;
+
+background: rgb(46, 43, 227);
+}
+.header-h {
+    position: relative;
+    bottom: 50px;
+        height: 70px;
+}
+.header-h h3 {
+    color: rgb(29, 29, 29);
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 135%;
+letter-spacing: 0%;
+text-align: left;
+}
+.header-h p {
+    color: rgb(29, 29, 29);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 135%;
+letter-spacing: 0%;
+text-align: left;
+position: relative;
+bottom: 30px;
+}

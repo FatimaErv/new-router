@@ -1,0 +1,23 @@
+.product-1 {
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.product-1 img {
+    width: 200px;
+    height: 200px;
+}
+.proo {
+
+    margin: 0 1900px;
+}
+.proo button {
+    width: 200px;
+    height: 44px;
+    background-color: red;
+}
+.main {
+ margin: 0 1900px;
+}

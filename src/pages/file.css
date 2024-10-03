@@ -1,0 +1,10 @@
+.meals {
+    width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.meal img {
+    width: 200px;
+    height: 200px;
+}

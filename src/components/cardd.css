@@ -1,0 +1,23 @@
+.item {
+    width: 180px;
+    height: 280px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.my {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.item-content h3 {
+    font-size: 15px;
+}
+.item-content p {
+    font-size: 14px;
+}

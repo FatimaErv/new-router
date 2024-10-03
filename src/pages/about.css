@@ -1,0 +1,191 @@
+.course {
+    display: flex;
+    /* justify-content: space-around; */
+   margin: 20px 250px;
+}
+.course img {
+    width: 890.14px;
+height: 543.95px;
+}
+.courses h1 {
+    color: rgb(5, 12, 38);
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 135%;
+    letter-spacing: 0%;
+    /* text-align: left; */
+}
+.courses p {
+    color: rgb(57, 57, 59);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 171%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 586px;
+height: 102px;
+}
+.courses-1 {
+    width: 480px;
+height: 40px;
+border: 1px solid #ccc;
+}
+.courses-1 input {
+    color: rgb(15, 51, 94);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+}
+.courses-1 button {
+    width: 158px;
+height: 40px;
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 25px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+background-color: blue;
+border-radius: 20px;
+}
+.dlya {
+    width: 1402px;
+height: 277px;
+border-radius: 14px;
+
+background: rgb(46, 43, 227);
+margin: 30px auto;
+display: flex;
+justify-content: space-around;
+}
+.dlya-1 p {
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+width: 292px;
+height: 88px;
+position: relative;
+bottom: 50px;
+}
+.dlya-1 h6{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    bottom: 15px;
+}
+.dlya img {
+    width: 54px;
+height: 54px;
+}
+.program {
+    margin: 0 auto;
+}
+.program h1 {
+    color: rgb(29, 29, 29);
+font-family: Roboto;
+font-size: 50px;
+font-weight: 700;
+line-height: 135%;
+letter-spacing: 0%;
+text-align: center;
+}
+.program p {
+    color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.program-boxes {
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+}
+.program-box {
+    width: 490px;
+    height: 457px;
+    border-radius: 14px;
+    position: relative;
+
+box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+background: rgb(255, 255, 255);
+}
+.program-box img {
+    width: 506px;
+height: 337px;
+}
+.program-box  p {
+    color: rgb(172, 172, 172);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+position: absolute;
+top: 290px;
+left: 10px;
+
+}
+.program-box h6 {
+    color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+position: absolute;
+top: 290px;
+left: 10px;
+
+}
+.program-box h5 {
+    color: rgb(255, 116, 38);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+position: absolute;
+top: 330px;
+left: 10px;
+}
+.program-box button {
+    border-radius: 96px;
+
+background: rgb(255, 116, 38);
+width: 207px;
+height: 55px;
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 25px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+position: absolute;
+top: 420px;
+left: 120px;
+
+text-align: center;
+}
